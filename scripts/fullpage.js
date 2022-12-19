@@ -4,5 +4,6 @@ new fullpage('#fullPage', {
   navigation: true,
   navigationTooltips: ['Home', 'About me', 'Skills', 'Projects', 'Contacts'],
   controlArrows: false,
-  slidesNavigation: true
+  slidesNavigation: true,
+  CSS3: true
 });
