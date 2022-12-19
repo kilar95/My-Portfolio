@@ -1,0 +1,61 @@
+/* contacts */
+
+.s5 {
+  display: block;
+  text-align: center;
+}
+
+ .contact-me {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  line-height: 1.5;
+}
+
+.contact-me h1 {
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.last-p {
+  max-width: 40%;
+  margin: 2rem auto min(4rem, 3vh);
+  font-weight: 700;
+}
+
+footer {
+  height: 20vh;
+  background-color: hsl(var(--clr-dark), .6);
+  padding: 2rem;
+  border-top: 1px solid #fff;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  justify-content: space-between;
+  column-gap: min(7rem, 5vw);
+}
+
+.footer-link {
+  padding: 1rem .5rem;
+  color: hsl(var(--clr-white));
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-link:hover {
+  color: hsl(var(--clr-white), 0.5);
+  border-bottom: 2px solid hsl( var(--clr-white));
+}
+
+.signature {
+  opacity: .5;
+  font-size: 0.75rem;
+  padding-top: 2rem;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- FullPage CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.css"
+    integrity="sha512-FKlWnaJrtBEqH+gNy8kvp+/61S+8iOKb5tG+EKCQ3Fc3iUYr9MvnywpkZBcuNKrxQxlnZYpNwDgkZ2atX7wVVg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/navigation.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="stylesheet" href="assets/css/skills.css">
+  <link rel="stylesheet" href="assets/css/projects.css">
+  <link rel="stylesheet" href="assets/css/contacts.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&family=Open+Sans:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/fdbf26b506.js" crossorigin="anonymous"></script>
+
+  <title>Ilaria Bertoldi - Portfolio</title>
+</head>
+
+<body class="text-white">
+
+  <div id="fullPage">
+
+    <section id="home" class="section s1">
+      <header>
+        <div class="top-bar flex">
+          <div>
+            <a class="home fs-400 text-white letter-spacing-3">Ilaria Bertoldi</a>
+          </div>
+          <button class="mobile-nav-toggle" aria-controls="top-nav"><span aria-expanded="false"></span></button>
+          <nav id="top-nav" class="top-nav fs-400 letter-spacing-3 flex" data-visible="false">
+            <a class="nav-link" href="#about">About me</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </nav>
+        </div>
+
+        <div class="main-title flex">
+          <p class="uppercase fs-300 letter-spacing-3">I am</p>
+          <h1 class="fs-800 letter-spacing-1 uppercase">Ilaria</h1>
+          <h3 id="carousel-words" class="fs-300 uppercase letter-spacing-3">a junior web developer</h3>
+          <a class="text-white" href="#projects"><button class="btn text-white uppercase letter-spacing-2">My
+              projects</button></a>
+        </div>
+
+      </header>
+    </section>
+
+    <section id="about" class="section s2">
+      <main class="main container flex">
+        <div class="my-picture">
+            <img src="assets/images/polaroid.jpg" alt="picture of Ilaria" />
+        </div>
+        <div class="descr flex">
+          <h1 class="uppercase letter-spacing-2 fs-600">About me</h1>
+          <p class="letter-spacing-4">Hi, I am Ilaria, an MSc graduate in Environmental Monitoring and Assessment based
+            in Rome.
+            After completing my studies I worked for a year as an environmental consultant and a short period as an
+            environmental technician. <br><br>
+            While working I became very interested in web development and data analysis. Therefore I decided to join
+            several online courses
+            and bootcamps aimed at strenghtening the data analysis skills that I acquired during my studies at University, 
+            as well as learnirng new skills in web development. <br><br>
+            Although the journey to become a professional developer is still long, I am very excited to keep learning and
+            keep discovering new ways to build something useful for people and the environment!
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <section id="skills" class="section s3">
+      <h1 class="uppercase letter-spacing-2 fs-600">IT Skills</h1>
+      <div class="skills-container container flex">
+        <div class="it-courses flex">
+          <div class="skill-row">
+            <h2>Web Development</h2>
+            <div>
+              <img class="coding-img" src="assets/images/icons/webdev-white.png" alt="coding-img">
+              <p> After finishing <em>"The
+                  Complete 2022 Web Development Bootcamp"</em> on UDEMY I obtained proficiency in HTML, CSS, JavaScript
+                and Node.js, by completing various projects and web apps, all available on my GitHub. </p>
+            </div>
+          </div>
+          <div class="skill-row">
+            <h2>Data Analysis</h2>
+            <div>
+              <img class="analysis-img" src="assets/images/icons/analysis-white.png" alt="a-graphic">
+              <p>I also earned the <em>Google Data Analytics Certificate</em> and completed eight courses, developed by
+                Google, that include hands-on, practice-based assessments. I developed expertise in tools and platforms
+                including spreadsheets, SQL, Tableau, and R.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-bars flex">
+          <p>HTML</p>
+          <div class="bar-container">
+            <div class="skills html">90%</div>
+          </div>
+
+          <p>CSS</p>
+          <div class="bar-container">
+            <div class="skills css">80%</div>
+          </div>
+
+          <p>SASS</p>
+          <div class="bar-container">
+            <div class="skills sass">60%</div>
+          </div>
+
+          <p>JavaScript</p>
+          <div class="bar-container">
+            <div class="skills js">70%</div>
+          </div>
+
+          <p>Node.js</p>
+          <div class="bar-container">
+            <div class="skills node">65%</div>
+          </div>
+
+          <p>R</p>
+          <div class="bar-container">
+            <div class="skills R">60%</div>
+          </div>
+
+          <p>SQL Server</p>
+          <div class="bar-container">
+            <div class="skills sql">70%</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section s4">
+      <h1 class="uppercase letter-spacing-2 fs-600">My Projects</h1>
+
+      <div class="projects-container flex">
+
+        <div class="projects-row flex">
+
+          <a href="https://github.com/kilar95/Space-Tourism.git" target="_blank">
+          <div class="proj project-2 flex">
+            <h3 class="fs-600 uppercase letter-spacing-1">Space <br> Tourism</h3>
+          </div></a>
+
+          <a href="https://github.com/kilar95/Simon-game.git" target="_blank">
+          <div class="proj project-1 flex">
+            <h3 class="fs-600 uppercase letter-spacing-1">Simon</h3>
+            <h3 class="fs-600 uppercase letter-spacing-1">Game</h3>
+          </div></a>
+
+          <a href="https://github.com/kilar95/Drum-Kit.git" target="_blank">
+          <div class="proj project-3 flex">
+            <h3 class="fs-600 uppercase letter-spacing-1">Drum Kit</h3>
+          </div></a>
+
+        </div>
+
+        <div class="projects-row flex">
+
+          <a href="https://github.com/kilar95/Secrets.git" target="_blank">
+          <div class="proj project-4 flex">
+            <h3 class="fs-600 uppercase letter-spacing-1">Secrets <br> App</h3>
+          </div></a>
+
+          <a href="https://github.com/kilar95/To-Do-List.git" target="_blank">
+          <div class="proj project-5 flex">
+            <h3 class="fs-600 uppercase letter-spacing-1">To Do List</h3>
+          </div></a>
+
+          <a href="https://github.com/kilar95/TinDog.git" target="_blank">
+          <div class="proj project-6 flex">
+            <h3 class="fs-600 uppercase letter-spacing-1">Tin Dog</h3>
+          </div></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section s5">
+      <div class="contact-me flex">
+        <h1 class="fs-700">Get In Touch!</h1>
+        <h3 class="fs-600">I am ready to learn and start my career as a professional web developer!</h3>
+        <p class="last-p">If you are interested in working together, please feel free to send me an email using the
+          following button.</p>
+        <a class="text-white" href="mailto:ilaria.bertoldi.95@gmail.com"><button
+            class="btn text-white uppercase letter-spacing-2">contact me</button></a>
+      </div>
+
+      <footer class="flex">
+        <div class="links flex">
+          <a class="footer-link" href="https://www.linkedin.com/in/ilaria-bertoldi-837a20176/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a class="footer-link" href="https://www.instagram.com/kilarb/" target="_blank"><i class="fa-brands fa-instagram"></i>
+            Instagram</a>
+          <a class="footer-link" href="https://github.com/kilar95" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+
+        <p class="signature">© 2022 Ilaria Bertoldi.</p>
+      </footer>
+    </section>
+
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js"></script>
+  <script src="scripts/navigation.js"></script>
+  <script src="scripts/carousel.js"></script>
+  <script src="scripts/fullpage.js"></script>
+
+</body>
+
+</html>

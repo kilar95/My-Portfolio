@@ -1,0 +1,30 @@
+/* header */ 
+
+header {
+  background-image: url(../images/dark-plant-md.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-title {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 1rem;
+  margin: min(15vh, 10rem) auto;
+}
+
+.main-title h1 {
+  font-weight: 400;
+}
+
+.main-title p, .main-title h3 {
+  opacity: .8;
+  font-weight: 500;
+}
+
+.main-title button {
+  margin-top: 3.5rem;
+}
+
+

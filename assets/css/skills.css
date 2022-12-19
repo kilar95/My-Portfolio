@@ -1,0 +1,107 @@
+/* skills */ 
+
+.s3 h1 {
+  text-align: center;
+  margin-block: 3rem;
+  font-weight: 500
+}
+
+.skills-container {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.it-courses {
+  flex-direction: column;
+  width: 50vw;
+}
+
+.skill-row {
+  margin-inline: 3.7rem 3rem;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.coding-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  opacity: 70%;
+}
+
+.analysis-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  opacity: 70%;
+}
+
+
+.skill-bars {
+  flex-direction: column;
+  width: 50vw;
+}
+
+.skill-bars > p {
+  font-weight: bold;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: rgba(114, 114, 114, 0.384);
+  border-radius: 1rem;
+}
+
+.skills {
+  text-align: right; 
+  padding: .2rem;
+  color: hsl(var(--clr-white)); 
+  border-radius: 1rem;
+}
+
+.html {width: 90%; background-color: #f367097d;} 
+.css {width: 80%; background-color: #0d6dbb95;} 
+.sass {width: 60%; background-color: #bb4ca890;} 
+.js {width: 70%; background-color: #b4a91693;} 
+.node {width: 65%; background-color: #127e1289;} 
+.sql {width: 70%; background-color: #813f3f8a;} 
+.R {width: 65%; background-color: #a0a0a07e;} 
+
+
+@media (min-width: 660px) and (max-width: 860px) {
+  .skills-container {
+    flex-direction: column;   
+    align-items: center;
+    row-gap: 2rem;
+  }
+
+  .it-courses {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .coding-img, .analysis-img {
+    display: none;
+  }
+}
+
+
+@media (max-width: 660px) {
+  .it-courses {
+    display: none;
+  }
+
+  .skills-container {
+    justify-content: center;
+  }
+
+  .skill-bars {
+    flex-direction: column;
+  }
+}
