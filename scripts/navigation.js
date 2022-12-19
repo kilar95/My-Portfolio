@@ -29,3 +29,10 @@ links.forEach(link => {
         }
     })
 })
+
+document.onclick = function(e) {
+    if(e.target.id !== 'top-nav' && e.target.id !== 'mobile-nav-toggle') {
+            nav.setAttribute("data-visible", false);
+            navToggle.setAttribute("aria-expanded", false);
+    }
+}
