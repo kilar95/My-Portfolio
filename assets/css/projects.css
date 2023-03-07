@@ -1,4 +1,4 @@
-/* projects */ 
+/* projects */
 
 .s4 h1 {
   text-align: center;
@@ -26,10 +26,13 @@
   background-color: hsl(var(--clr-dark));
   border-radius: 2rem;
   border: 1px solid #fff;
-  
+
   justify-content: center;
   align-items: center;
   overflow: hidden;
+
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
 }
 
 .proj h3 {
@@ -38,16 +41,12 @@
 
 .proj:hover {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(247, 247, 247, 0.67);
-  -moz-box-shadow:    0px 0px 30px 0px rgba(247, 247, 247, 0.67);
-   box-shadow:         0px 0px 30px 0px rgba(247, 247, 247, 0.67);
-   transform:scale(1.1, 1.1);
-  -webkit-transform:scale(1.1, 1.1);
-  -moz-transform:scale(1.1, 1.1);
-
-  transition: transform .3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
+  -moz-box-shadow: 0px 0px 30px 0px rgba(247, 247, 247, 0.67);
+  box-shadow: 0px 0px 30px 0px rgba(247, 247, 247, 0.67);
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
 }
-
 
 .project-1 {
   background: url(../images/projects-preview/sg-icon-tr.png) no-repeat center;
@@ -60,39 +59,37 @@
 }
 
 .project-3 {
-  background: url(../images/projects-preview/tom-tr.png) no-repeat center;
+  background: url(../images/projects-preview/tenzies-tr.png) no-repeat;
 }
 
 .project-4 {
-  background: url(../images/projects-preview/secrets-tr2.png) no-repeat;
+  background: url(../images/projects-preview/cityscore-tr.png) no-repeat;
   background-size: cover;
 }
 
 .project-5 {
-  background: url(../images/projects-preview/to-do-list-tr.png) no-repeat;
+  background: url(../images/projects-preview/meditation-tr.png) no-repeat;
   background-size: cover;
 }
 
 .project-6 {
-  background: url(../images/projects-preview/tindog-tr.png) no-repeat;
+  background: url(../images/projects-preview/counter-tr.png) no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 860px) {
-
   .projects-container {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
   }
-  
+
   .projects-row {
     flex-direction: column;
     align-items: stretch;
     row-gap: 3rem;
   }
-
 
   .proj h3 {
     font-size: smaller;

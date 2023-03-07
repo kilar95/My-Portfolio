@@ -1,9 +1,9 @@
-/* skills */ 
+/* skills */
 
 .s3 h1 {
   text-align: center;
   margin-block: 3rem;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .skills-container {
@@ -42,7 +42,6 @@
   opacity: 70%;
 }
 
-
 .skill-bars {
   flex-direction: column;
   width: 50vw;
@@ -59,24 +58,44 @@
 }
 
 .skills {
-  text-align: right; 
-  padding: .2rem;
-  color: hsl(var(--clr-white)); 
+  text-align: right;
+  padding: 0.2rem;
+  color: hsl(var(--clr-white));
   border-radius: 1rem;
 }
 
-.html {width: 90%; background-color: #f367097d;} 
-.css {width: 80%; background-color: #0d6dbb95;} 
-.sass {width: 60%; background-color: #bb4ca890;} 
-.js {width: 70%; background-color: #b4a91693;} 
-.node {width: 65%; background-color: #127e1289;} 
-.sql {width: 70%; background-color: #813f3f8a;} 
-.R {width: 65%; background-color: #a0a0a07e;} 
-
+.html {
+  width: 90%;
+  background-color: #f367097d;
+}
+.css {
+  width: 90%;
+  background-color: #0d6dbb95;
+}
+.react {
+  width: 80%;
+  background-color: #14bbd894;
+}
+.js {
+  width: 80%;
+  background-color: #b4a91693;
+}
+.node {
+  width: 65%;
+  background-color: #127e1289;
+}
+.sql {
+  width: 70%;
+  background-color: #813f3f8a;
+}
+.R {
+  width: 60%;
+  background-color: #a0a0a07e;
+}
 
 @media (min-width: 660px) and (max-width: 860px) {
   .skills-container {
-    flex-direction: column;   
+    flex-direction: column;
     align-items: center;
     row-gap: 2rem;
   }
@@ -86,11 +105,11 @@
     width: 100%;
   }
 
-  .coding-img, .analysis-img {
+  .coding-img,
+  .analysis-img {
     display: none;
   }
 }
-
 
 @media (max-width: 660px) {
   .it-courses {
